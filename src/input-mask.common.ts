@@ -1,9 +1,9 @@
-import { Property, booleanConverter } from 'tns-core-modules/ui/core/view';
-import { TextField } from 'tns-core-modules/ui/text-field';
-
+import { booleanConverter, Property, TextField } from '@nativescript/core';
 import { InputMask as InputMaskDefinition } from '.';
 
-export abstract class InputMaskBase extends TextField implements InputMaskDefinition {
+export abstract class InputMaskBase
+  extends TextField
+  implements InputMaskDefinition {
   private _extractedValue: string;
   private _completed: boolean;
   mask: string;
@@ -20,18 +20,18 @@ export abstract class InputMaskBase extends TextField implements InputMaskDefini
 export const completedProperty = new Property<InputMaskBase, boolean>({
   name: 'completed',
   defaultValue: false,
-  valueConverter: booleanConverter,
+  valueConverter: booleanConverter
 });
 completedProperty.register(InputMaskBase);
 
 export const extractedValueProperty = new Property<InputMaskBase, string>({
   name: 'extractedValue',
-  defaultValue: '',
+  defaultValue: ''
 });
 extractedValueProperty.register(InputMaskBase);
 
 export const maskProperty = new Property<InputMaskBase, string>({
   name: 'mask',
-  defaultValue: '',
+  defaultValue: ''
 });
 maskProperty.register(InputMaskBase);

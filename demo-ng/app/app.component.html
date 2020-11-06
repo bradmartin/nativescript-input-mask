@@ -5,7 +5,8 @@
       hint="0000 0000 0000 0000"
       (textChange)="onTextChange($event)"
       (extractedValueChange)="onExtractedValueChange($event)"
-      (completedChange)="onCompleteChange($event)">
+      (completedChange)="onCompleteChange($event)"
+    >
     </InputMask>
     <Label [text]="'Text: ' + text"></Label>
     <Label [text]="'Extracted: ' + extractedValue"></Label>

@@ -1,6 +1,12 @@
-import { textProperty } from 'tns-core-modules/ui/text-field/text-field-common';
-import { completedProperty, extractedValueProperty, InputMaskBase, maskProperty } from './input-mask.common';
+import { textProperty } from '@nativescript/core/ui/text-base';
+import {
+  completedProperty,
+  extractedValueProperty,
+  InputMaskBase,
+  maskProperty
+} from './input-mask.common';
 
+@NativeClass()
 class ListenerImpl extends NSObject implements MaskedTextFieldDelegateListener {
   public static ObjCProtocols = [MaskedTextFieldDelegateListener];
 
@@ -12,20 +18,26 @@ class ListenerImpl extends NSObject implements MaskedTextFieldDelegateListener {
 
   public _owner: WeakRef<InputMask>;
 
-  public textFieldDidFillMandatoryCharactersDidExtractValue(textField: UITextField, complete: boolean, value: string): void {
+  public textFieldDidFillMandatoryCharactersDidExtractValue(
+    textField: UITextField,
+    complete: boolean,
+    value: string
+  ): void {
     const owner = this._owner.get();
     if (owner) {
       completedProperty.nativeValueChange(owner, complete);
       extractedValueProperty.nativeValueChange(owner, value);
     }
   }
-
 }
 
 class InputMaskDelegateImpl extends MaskedTextFieldDelegate {
   public static ObjCProtocols = [UITextFieldDelegate];
 
-  public static initWithOwnerAndDefault(owner: WeakRef<InputMask>, defaultImpl: UITextFieldDelegate): InputMaskDelegateImpl {
+  public static initWithOwnerAndDefault(
+    owner: WeakRef<InputMask>,
+    defaultImpl: UITextFieldDelegate
+  ): InputMaskDelegateImpl {
     const delegate = <InputMaskDelegateImpl>InputMaskDelegateImpl.new();
     delegate._defaultImpl = defaultImpl;
     delegate._owner = owner;
@@ -51,9 +63,17 @@ class InputMaskDelegateImpl extends MaskedTextFieldDelegate {
     return this._defaultImpl.textFieldShouldReturn(textField);
   }
 
-  public textFieldShouldChangeCharactersInRangeReplacementString(textField: UITextField, range: NSRange, replacementString: string): boolean {
+  public textFieldShouldChangeCharactersInRangeReplacementString(
+    textField: UITextField,
+    range: NSRange,
+    replacementString: string
+  ): boolean {
     const owner = this._owner.get();
-    super.textFieldShouldChangeCharactersInRangeReplacementString(textField, range, replacementString);
+    super.textFieldShouldChangeCharactersInRangeReplacementString(
+      textField,
+      range,
+      replacementString
+    );
     if (owner) {
       textProperty.nativeValueChange(owner, textField.text);
     }
@@ -69,7 +89,10 @@ export class InputMask extends InputMaskBase {
   constructor() {
     super();
     const owner = new WeakRef(this);
-    this._delegate = InputMaskDelegateImpl.initWithOwnerAndDefault(owner, this._delegate);
+    this._delegate = InputMaskDelegateImpl.initWithOwnerAndDefault(
+      owner,
+      this._delegate
+    );
     this._listener = ListenerImpl.initWithOwner(owner);
     this._delegate.listener = this._listener;
   }
@@ -90,5 +113,4 @@ export class InputMask extends InputMaskBase {
   [textProperty.setNative](text: string) {
     this._delegate.putWithTextInto(text, this._ios);
   }
-
 }

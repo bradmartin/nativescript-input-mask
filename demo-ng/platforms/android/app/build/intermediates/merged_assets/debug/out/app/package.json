@@ -1,0 +1,10 @@
+{
+    "id": "org.nativescript.demoNg",
+    "appResourcesPath": "App_Resources",
+    "android": {
+        "v8Flags": "--expose_gc",
+        "markingMode": "none"
+    },
+    "appPath": "app",
+    "main": "bundle"
+}

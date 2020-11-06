@@ -1,0 +1,4 @@
+#Fri Nov 06 13:46:43 CST 2020
+base.0=/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

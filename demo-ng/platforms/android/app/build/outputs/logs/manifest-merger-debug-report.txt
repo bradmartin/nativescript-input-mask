@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.redmadrobot:inputmask:2.3.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2a303eeb2db662daf9e9fc8661612e2a/jetified-inputmask-2.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1687ee971ab8b5ec5494b8a8cf5d51b3/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/917b3be0c272a275ba6b1767cda88395/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9b5125f3a1a10615140f1a421e8a5432/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/5110a3e53ea2ad275e01122bc7e6f4e2/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/396106f138e8ad5499daa85a35b07ba7/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0abc97bfc9304af81765047eb4107a07/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e04abaf80c6c23cbf1d84842fc29276d/fragment-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ebd0376f18de565ba7e353ddb4ae088b/transition-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [:nativescript-optimized-with-inspector:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/417d61ca8a5030f871833861dc238349/jetified-nativescript-optimized-with-inspector/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/070ae7c74783cb3645505217ca894554/jetified-widgets-release/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.media:media:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6d1d7e7c1cd81c79b58c31b5661be651/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/a08f164688aa1831842ad0f60dbfec9d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f833c33d4bcca44537d57f829e208a86/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e956c2f2c18bd45f9f081910028b7e6c/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9af1953f30db449c96eeb4bf235d1d6f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f25d8ad93ca9c1f7a929f44b3abb106c/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1beb2dec9db543955f8188f5f77c1fda/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0f9e1c53f9a66aa727d8d8a9d890ea9f/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f349b0cb3b3906414a07e83cac50d0d6/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1a8ca0278a026ee9ba8abe2792d4c0d9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ffafd1d8442f198fa832a93f3b5a6fbe/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ecad38cc9b0fcbc4309aa86ddb28c915/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/c066138613f8208fb4de24bb82318a47/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f2c211a78f052d19549e3f0fae2c8383/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ff061ffc8c3b9f966ce6da2504389535/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/16be4c5f60f2afcaa37a79865fb51033/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2d31e24522787f0f7181c0fbf94aa9aa/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/39d763b7017088406e86864416d2a321/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1aa84a3d8e121b406aa1201cc1bc8237/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/15188e3d1ef83c9a770d610c9e3a5b35/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/48b98438e6fdbfd9cc6b89f46d17ea16/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/4573a3b2b47486a111fce19f90e1967b/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/608df983b9beb63a7653d93b8af867be/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/d83b7921cd33975a63dfbdfcfd51d146/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/88732390cf5eac83bd588d83e80ddbbf/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/eba4513194a8b592d1b459eccf2ed17c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/8b934c4d6654620f4901649f6d125b98/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6f8457af2cce18c9235d482fbc5f8a41/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/add2a7138917a2450cb82af6a1317817/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/b49668b7b8df897ff311278ae931658c/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:3:2-35
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+MERGED from [com.redmadrobot:inputmask:2.3.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2a303eeb2db662daf9e9fc8661612e2a/jetified-inputmask-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.redmadrobot:inputmask:2.3.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2a303eeb2db662daf9e9fc8661612e2a/jetified-inputmask-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1687ee971ab8b5ec5494b8a8cf5d51b3/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1687ee971ab8b5ec5494b8a8cf5d51b3/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/917b3be0c272a275ba6b1767cda88395/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/917b3be0c272a275ba6b1767cda88395/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9b5125f3a1a10615140f1a421e8a5432/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9b5125f3a1a10615140f1a421e8a5432/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/5110a3e53ea2ad275e01122bc7e6f4e2/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/5110a3e53ea2ad275e01122bc7e6f4e2/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/396106f138e8ad5499daa85a35b07ba7/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/396106f138e8ad5499daa85a35b07ba7/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0abc97bfc9304af81765047eb4107a07/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0abc97bfc9304af81765047eb4107a07/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e04abaf80c6c23cbf1d84842fc29276d/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e04abaf80c6c23cbf1d84842fc29276d/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ebd0376f18de565ba7e353ddb4ae088b/transition-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.1] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ebd0376f18de565ba7e353ddb4ae088b/transition-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/417d61ca8a5030f871833861dc238349/jetified-nativescript-optimized-with-inspector/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/417d61ca8a5030f871833861dc238349/jetified-nativescript-optimized-with-inspector/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/070ae7c74783cb3645505217ca894554/jetified-widgets-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/070ae7c74783cb3645505217ca894554/jetified-widgets-release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.media:media:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6d1d7e7c1cd81c79b58c31b5661be651/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6d1d7e7c1cd81c79b58c31b5661be651/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/a08f164688aa1831842ad0f60dbfec9d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/a08f164688aa1831842ad0f60dbfec9d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f833c33d4bcca44537d57f829e208a86/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f833c33d4bcca44537d57f829e208a86/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e956c2f2c18bd45f9f081910028b7e6c/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/e956c2f2c18bd45f9f081910028b7e6c/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9af1953f30db449c96eeb4bf235d1d6f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9af1953f30db449c96eeb4bf235d1d6f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f25d8ad93ca9c1f7a929f44b3abb106c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f25d8ad93ca9c1f7a929f44b3abb106c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1beb2dec9db543955f8188f5f77c1fda/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1beb2dec9db543955f8188f5f77c1fda/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0f9e1c53f9a66aa727d8d8a9d890ea9f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/0f9e1c53f9a66aa727d8d8a9d890ea9f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f349b0cb3b3906414a07e83cac50d0d6/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f349b0cb3b3906414a07e83cac50d0d6/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1a8ca0278a026ee9ba8abe2792d4c0d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1a8ca0278a026ee9ba8abe2792d4c0d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ffafd1d8442f198fa832a93f3b5a6fbe/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ffafd1d8442f198fa832a93f3b5a6fbe/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ecad38cc9b0fcbc4309aa86ddb28c915/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ecad38cc9b0fcbc4309aa86ddb28c915/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/c066138613f8208fb4de24bb82318a47/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/c066138613f8208fb4de24bb82318a47/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f2c211a78f052d19549e3f0fae2c8383/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/f2c211a78f052d19549e3f0fae2c8383/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ff061ffc8c3b9f966ce6da2504389535/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/ff061ffc8c3b9f966ce6da2504389535/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/16be4c5f60f2afcaa37a79865fb51033/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/16be4c5f60f2afcaa37a79865fb51033/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2d31e24522787f0f7181c0fbf94aa9aa/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/2d31e24522787f0f7181c0fbf94aa9aa/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/39d763b7017088406e86864416d2a321/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/39d763b7017088406e86864416d2a321/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1aa84a3d8e121b406aa1201cc1bc8237/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1aa84a3d8e121b406aa1201cc1bc8237/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/15188e3d1ef83c9a770d610c9e3a5b35/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/15188e3d1ef83c9a770d610c9e3a5b35/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/48b98438e6fdbfd9cc6b89f46d17ea16/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/48b98438e6fdbfd9cc6b89f46d17ea16/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/4573a3b2b47486a111fce19f90e1967b/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/4573a3b2b47486a111fce19f90e1967b/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/608df983b9beb63a7653d93b8af867be/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/608df983b9beb63a7653d93b8af867be/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/d83b7921cd33975a63dfbdfcfd51d146/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/d83b7921cd33975a63dfbdfcfd51d146/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/88732390cf5eac83bd588d83e80ddbbf/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/88732390cf5eac83bd588d83e80ddbbf/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/eba4513194a8b592d1b459eccf2ed17c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/eba4513194a8b592d1b459eccf2ed17c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/8b934c4d6654620f4901649f6d125b98/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/8b934c4d6654620f4901649f6d125b98/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6f8457af2cce18c9235d482fbc5f8a41/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/6f8457af2cce18c9235d482fbc5f8a41/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/add2a7138917a2450cb82af6a1317817/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/add2a7138917a2450cb82af6a1317817/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/b49668b7b8df897ff311278ae931658c/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/b49668b7b8df897ff311278ae931658c/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+	android:targetSdkVersion
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:15:3-42
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [com.google.android.material:material:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9b5125f3a1a10615140f1a421e8a5432/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/9b5125f3a1a10615140f1a421e8a5432/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [:widgets-release:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/070ae7c74783cb3645505217ca894554/jetified-widgets-release/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/070ae7c74783cb3645505217ca894554/jetified-widgets-release/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1aa84a3d8e121b406aa1201cc1bc8237/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/1aa84a3d8e121b406aa1201cc1bc8237/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:icon
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:allowBackup
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:41:13-55

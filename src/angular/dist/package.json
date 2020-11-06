@@ -1,0 +1,14 @@
+{
+  "name": "nativescript-input-mask-angular",
+  "main": "bundles/nativescript-input-mask-angular.umd.js",
+  "module": "fesm2015/nativescript-input-mask-angular.js",
+  "es2015": "fesm2015/nativescript-input-mask-angular.js",
+  "esm2015": "esm2015/nativescript-input-mask-angular.js",
+  "fesm2015": "fesm2015/nativescript-input-mask-angular.js",
+  "typings": "nativescript-input-mask-angular.d.ts",
+  "metadata": "nativescript-input-mask-angular.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

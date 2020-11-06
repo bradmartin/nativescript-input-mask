@@ -2,62 +2,39 @@
   "description": "NativeScript Application",
   "readme": "NativeScript Application",
   "license": "Apache-2.0",
-  "nativescript": {
-    "id": "org.nativescript.demoNg",
-    "tns-ios": {
-      "version": "3.4.1"
-    },
-    "tns-android": {
-      "version": "3.4.1"
-    }
-  },
   "dependencies": {
-    "@angular/animations": "~5.2.0",
-    "@angular/common": "~5.2.0",
-    "@angular/compiler": "~5.2.0",
-    "@angular/core": "~5.2.0",
-    "@angular/forms": "~5.2.0",
-    "@angular/http": "~5.2.0",
-    "@angular/platform-browser": "~5.2.0",
-    "@angular/platform-browser-dynamic": "~5.2.0",
-    "@angular/router": "~5.2.0",
-    "nativescript-angular": "~5.2.0",
-    "nativescript-input-mask": "../src",
+    "@angular/animations": "~10.1.0",
+    "@angular/common": "~10.1.0",
+    "@angular/compiler": "~10.1.0",
+    "@angular/core": "~10.1.0",
+    "@angular/forms": "~10.1.0",
+    "@angular/http": "~7.2.16",
+    "@angular/platform-browser": "~10.1.0",
+    "@angular/platform-browser-dynamic": "~10.1.0",
+    "@angular/router": "~10.1.0",
+    "@bradmartin/nativescript-input-mask": "~0.0.1",
     "nativescript-theme-core": "~1.0.2",
     "reflect-metadata": "~0.1.8",
-    "rxjs": "~5.5.5",
-    "tns-core-modules": "~3.4.1",
-    "zone.js": "~0.8.17"
+    "rxjs": "~6.6.3",
+    "zone.js": "~0.11.3",
+    "@nativescript/angular": "~10.1.7",
+    "@nativescript/core": "~7.0.13"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "~5.2.0",
-    "awesome-typescript-loader": "~3.1.3",
-    "babel-traverse": "6.12.0",
-    "babel-types": "6.11.1",
-    "babylon": "6.8.4",
-    "filewalker": "0.1.2",
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.3.0",
-    "karma-jasmine": "^1.0.2",
-    "karma-nativescript-launcher": "^0.4.0",
-    "lazy": "1.0.11",
-    "nativescript-dev-typescript": "libs",
-    "raw-loader": "~0.5.1",
-    "resolve-url-loader": "~2.1.0",
-    "tns-platform-declarations": "^3.4.1",
+    "@angular/compiler-cli": "~10.1.0",
+    "@nativescript/android": "7.0.1",
+    "@nativescript/types": "~7.0.4",
+    "@nativescript/webpack": "~3.0.8",
+    "@ngtools/webpack": "~10.0.0",
     "tslint": "~5.4.3",
-    "typescript": "~2.7.2"
+    "typescript": "~3.9.7"
   },
   "scripts": {
     "build.plugin": "cd ../src && npm run build",
     "ci.tslint": "npm i && tslint --config '../tslint.json' 'app/**/*.ts' --exclude '**/node_modules/**'",
-    "ns-bundle": "ns-bundle",
-    "publish-ios-bundle": "npm run ns-bundle --ios --publish-app",
-    "generate-android-snapshot": "generate-android-snapshot --targetArchs arm,arm64,ia32 --install",
-    "start-android-bundle": "npm run ns-bundle --android --run-app",
-    "start-ios-bundle": "npm run ns-bundle --ios --run-app",
-    "build-android-bundle": "npm run ns-bundle --android --build-app",
-    "build-ios-bundle": "npm run ns-bundle --ios --build-app",
+    "demo.ng.android": "ns run android --no-hmr",
+    "demo.ns.ios": "ns run ios --no-hmr",
     "plugin": "tns plugin remove nativescript-input-mask && tns plugin add ../src"
-  }
+  },
+  "main": "main.js"
 }

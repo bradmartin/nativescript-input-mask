@@ -1,11 +1,10 @@
-import { Component, NgZone, OnInit } from "@angular/core";
-import { FormGroup, FormBuilder } from "@angular/forms";
+import { Component, NgZone, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: "ns-app",
-  templateUrl: "app.component.html",
+  selector: 'ns-app',
+  templateUrl: 'app.component.html'
 })
-
 export class AppComponent implements OnInit {
   form: FormGroup;
   text = '';
@@ -16,13 +15,13 @@ export class AppComponent implements OnInit {
   americanExpressMask = '[0000] [000000] [00000]';
   defaultMask = '[0000] [0000] [0000] [0000]';
 
-  constructor(private zone: NgZone, private formBuilder: FormBuilder) { }
+  constructor(private zone: NgZone, private formBuilder: FormBuilder) {}
 
   ngOnInit() {
     this.mask = this.defaultMask;
     this.form = this.formBuilder.group({
       // also works with text stripped of formatting '5555551234'
-      phone: ['(555) 555-1234', [], []],
+      phone: ['(555) 555-1234', [], []]
     });
   }
 
@@ -34,9 +33,9 @@ export class AppComponent implements OnInit {
     this.extractedValue = args.value;
     const isAmex = ['34', '37'].includes(this.extractedValue.substr(0, 2));
     if (isAmex && this.mask !== this.americanExpressMask) {
-      setTimeout(() => this.mask = this.americanExpressMask, 0);
+      setTimeout(() => (this.mask = this.americanExpressMask), 0);
     } else if (!isAmex && this.mask !== this.defaultMask) {
-      setTimeout(() => this.mask = this.defaultMask, 0);
+      setTimeout(() => (this.mask = this.defaultMask), 0);
     }
   }
 

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "@bradmartin/nativescript-input-mask",
+        "directory": "../../node_modules/@bradmartin/nativescript-input-mask"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "@nativescript/angular",
+        "directory": "../../node_modules/@nativescript/angular"
+    },
+    {
+        "name": "@nativescript/core",
+        "directory": "../../node_modules/@nativescript/core"
+    },
+    {
+        "name": "nativescript-intl",
+        "directory": "../../node_modules/nativescript-intl"
+    }
+]

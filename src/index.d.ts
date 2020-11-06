@@ -1,4 +1,4 @@
-import { TextField } from 'tns-core-modules/ui/text-field';
+import { TextField } from "@nativescript/core";
 
 export declare class InputMask extends TextField {
   extractedValue: string;

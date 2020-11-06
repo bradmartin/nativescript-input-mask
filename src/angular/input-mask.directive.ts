@@ -1,34 +1,31 @@
-import { Directive, ExistingProvider, forwardRef, HostListener, ElementRef } from "@angular/core";
-import { NG_VALUE_ACCESSOR, ControlValueAccessor } from "@angular/forms";
-import { BaseValueAccessor } from "nativescript-angular";
-
-import { InputMask } from "..";
+import { Directive, ElementRef, ExistingProvider, forwardRef } from '@angular/core';
+import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { BaseValueAccessor } from '@nativescript/angular';
+import { InputMask } from '..';
 
 const TEXT_VALUE_ACCESSOR: ExistingProvider = {
-  provide: NG_VALUE_ACCESSOR,
-  useExisting: forwardRef(() => InputMaskTextValueAccessor),
-  multi: true,
+	provide: NG_VALUE_ACCESSOR,
+	useExisting: forwardRef(() => InputMaskTextValueAccessor),
+	multi: true,
 };
 
 @Directive({
-  selector: "InputMask[ngModel], InputMask[formControlName], InputMask[formControl]",
-  providers: [ TEXT_VALUE_ACCESSOR ],
-  host: {
-    '(textChange)': 'onChange($event.value)',
-    '(touch)': 'onTouched()',
-  }
+	selector: 'InputMask[ngModel], InputMask[formControlName], InputMask[formControl]',
+	providers: [TEXT_VALUE_ACCESSOR],
+	host: {
+		'(textChange)': 'onChange($event.value)',
+		'(touch)': 'onTouched()',
+	},
 })
 export class InputMaskTextValueAccessor extends BaseValueAccessor<InputMask> implements ControlValueAccessor {
+	constructor(private elementRef: ElementRef) {
+		super(elementRef.nativeElement);
+	}
 
-  constructor(private elementRef: ElementRef) {
-    super(elementRef.nativeElement);
-  }
+	onTouched = () => {};
 
-  onTouched = () => { };
-
-  writeValue(value: any) {
-    const normalized = super.normalizeValue(value);
-    this.view.text = normalized;
-  }
-
+	writeValue(value: any) {
+		const normalized = super.normalizeValue(value);
+		this.view.text = normalized;
+	}
 }

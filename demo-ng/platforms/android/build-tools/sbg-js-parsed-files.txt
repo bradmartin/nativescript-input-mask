@@ -1,0 +1,4 @@
+/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/assets/app/runtime.js
+/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/assets/app/bundle.js
+/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/assets/app/vendor.js
+/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/assets/app/tns-java-classes.js

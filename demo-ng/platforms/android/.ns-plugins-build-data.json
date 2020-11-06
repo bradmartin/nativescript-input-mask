@@ -1,0 +1,9 @@
+{
+	"@bradmartin/nativescript-input-mask": {
+		"/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/node_modules/@bradmartin/nativescript-input-mask/platforms/android/include.gradle": "172dbda9f91ba6443a3de4211f4ac242c73c8439"
+	},
+	"@nativescript/core": {
+		"/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/node_modules/@nativescript/core/platforms/android/native-api-usage.json": "34ee0e9771ad7dd9d388c191734d71507a04565a",
+		"/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/node_modules/@nativescript/core/platforms/android/widgets-release.aar": "ea387e7a96a4ccb0df5c645b313c5dcf8042a0bb"
+	}
+}

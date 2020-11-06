@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.demoNg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:44
+8        android:minSdkVersion="17"
+8-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+9        android:targetSdkVersion="30" />
+9-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:15:3-42
+10
+11    <supports-screens
+11-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+17-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+18-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+19-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+20
+21    <application
+21-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+22        android:name="com.tns.NativeScriptApplication"
+22-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+23        android:allowBackup="true"
+23-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/bradmartin/.gradle/caches/transforms-2/files-2.1/82135a6afa86a0d8558ea3cf6f6e5274/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/icon"
+26-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+27        android:label="@string/app_name"
+27-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+28        android:theme="@style/AppTheme" >
+28-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+29        <activity
+29-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+30            android:name="com.tns.NativeScriptActivity"
+30-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+31            android:configChanges="keyboardHidden|orientation|screenSize"
+31-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+32            android:label="@string/title_activity_kimera"
+32-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+33            android:theme="@style/LaunchScreenTheme" >
+33-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+34            <meta-data
+34-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+35                android:name="SET_THEME_ON_LAUNCH"
+35-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+36                android:resource="@style/AppTheme" />
+36-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+37
+38            <intent-filter>
+38-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+39-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+41-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.tns.ErrorReportActivity" />
+44-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+44-->/Users/bradmartin/Desktop/nativescript-input-mask/demo-ng/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+45    </application>
+46
+47</manifest>
