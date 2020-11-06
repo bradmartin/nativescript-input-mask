@@ -4,7 +4,7 @@
   "description": "A Nativescript plugin to mask (format) text such as phone numbers or credit card numbers.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vcooley/nativescript-input-mask.git"
+    "url": "https://github.com/bradmartin/nativescript-input-mask.git"
   },
   "main": "input-mask",
   "typings": "index.d.ts",
@@ -44,10 +44,10 @@
     "email": "vince.r.cooley@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/vcooley/nativescript-input-mask/issues"
+    "url": "https://github.com/bradmartin/nativescript-input-mask/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/vcooley/nativescript-input-mask",
+  "homepage": "https://github.com/bradmartin/nativescript-input-mask",
   "readmeFilename": "README.md",
   "devDependencies": {
     "@angular/animations": "~10.1.0",
