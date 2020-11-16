@@ -5,7 +5,7 @@ import {
   maskProperty
 } from './input-mask.common';
 
-@Interfaces(com.redmadrobot.inputmask.MaskedTextChangedListener.ValueListener)
+// @Interfaces(com.redmadrobot.inputmask.MaskedTextChangedListener.ValueListener)
 export class ValueListener
   implements com.redmadrobot.inputmask.MaskedTextChangedListener.ValueListener {
   owner: WeakRef<InputMask>;
