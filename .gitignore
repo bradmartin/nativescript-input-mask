@@ -1,19 +1,21 @@
 # Demo application build files
-demo/platforms/*
-demo/lib/*
+demo-ng/platforms/*
+demo-ng/lib/*
 
 *.DS_Store
 
 src/*.js
 /*.js
-demo/app/**.js
-demo/node_modules/
+demo-ng/app/**.js
+demo-ng/node_modules/
 node_modules/
+package-lock.json
+*.tgz
 
 .vscode
 .idea
-demo/.DS_Store
-demo/app/.DS_Store
+demo-ng/.DS_Store
+demo-ng/app/.DS_Store
 .DS_Store
 .npmrc
 *.js
@@ -26,24 +28,15 @@ src/*.d.ts
 !seed-tests/*.js
 seed-tests/seed-copy/**/*.*
 seed-tests/seed-copy-new-git-repo/**/*.*
-!demo/karma.conf.js
-!demo/app/tests/*.js
-demo/*.d.ts
-!demo/references.d.ts
-demo/lib
-demo/platforms
+!demo-ng/karma.conf.js
+!demo-ng/app/tests/*.js
+demo-ng/*.d.ts
+!demo-ng/references.d.ts
+demo-ng/lib
+demo-ng/platforms
 node_modules
 publish/src
 publish/package
-demo/report/report.html
-demo/report/stats.json
-!demo/webpack.config.js
-!demo/karma.conf.js
-
-## demo-vue app
-!demo-vue/**/*.js
-
-## demo-angular app
+demo-ng/report/report.html
+demo-ng/report/stats.json
 !demo-ng/webpack.config.js
-
-*.tgz

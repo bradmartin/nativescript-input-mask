@@ -4,10 +4,10 @@ import { registerElement } from '@nativescript/angular';
 import { InputMaskTextValueAccessor } from './input-mask.directive';
 
 @NgModule({
-	declarations: [InputMaskTextValueAccessor],
-	providers: [],
-	imports: [FormsModule],
-	exports: [InputMaskTextValueAccessor, FormsModule],
+  declarations: [InputMaskTextValueAccessor],
+  providers: [],
+  imports: [FormsModule],
+  exports: [InputMaskTextValueAccessor, FormsModule]
 })
 export class NativeScriptInputMaskModule {}
 

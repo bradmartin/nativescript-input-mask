@@ -1,3 +1,4 @@
+/// <reference path="../node_modules/@nativescript/types/index.d.ts" />
 
 declare var InputMaskVersionNumber: number;
 
@@ -8,14 +9,13 @@ declare var InputMaskVersionString: interop.Reference<number>;
 declare var InputMaskVersionStringVar: interop.Reference<number>;
 
 declare class Mask extends NSObject {
-
   static alloc(): Mask; // inherited from NSObject
 
   static getOrCreateWithFormatError(format: string): Mask;
 
   static new(): Mask; // inherited from NSObject
 
-  constructor(o: { format: string; });
+  constructor(o: { format: string });
 
   acceptableTextLength(): number;
 
@@ -30,8 +30,9 @@ declare class Mask extends NSObject {
   totalValueLength(): number;
 }
 
-declare class MaskedTextFieldDelegate extends NSObject implements UITextFieldDelegate {
-
+declare class MaskedTextFieldDelegate
+  extends NSObject
+  implements UITextFieldDelegate {
   static alloc(): MaskedTextFieldDelegate; // inherited from NSObject
 
   static new(): MaskedTextFieldDelegate; // inherited from NSObject
@@ -58,9 +59,9 @@ declare class MaskedTextFieldDelegate extends NSObject implements UITextFieldDel
 
   readonly superclass: typeof NSObject; // inherited from NSObjectProtocol
 
-  readonly;  // inherited from NSObjectProtocol
+  readonly; // inherited from NSObjectProtocol
 
-  constructor(o: { format: string; });
+  constructor(o: { format: string });
 
   acceptableTextLength(): number;
 
@@ -82,7 +83,11 @@ declare class MaskedTextFieldDelegate extends NSObject implements UITextFieldDel
 
   performSelectorWithObject(aSelector: string, object: any): any;
 
-  performSelectorWithObjectWithObject(aSelector: string, object1: any, object2: any): any;
+  performSelectorWithObjectWithObject(
+    aSelector: string,
+    object1: any,
+    object2: any
+  ): any;
 
   placeholder(): string;
 
@@ -98,11 +103,18 @@ declare class MaskedTextFieldDelegate extends NSObject implements UITextFieldDel
 
   textFieldDidEndEditing(textField: UITextField): void;
 
-  textFieldDidEndEditingReason(textField: UITextField, reason: UITextFieldDidEndEditingReason): void;
+  textFieldDidEndEditingReason(
+    textField: UITextField,
+    reason: UITextFieldDidEndEditingReason
+  ): void;
 
   textFieldShouldBeginEditing(textField: UITextField): boolean;
 
-  textFieldShouldChangeCharactersInRangeReplacementString(textField: UITextField, range: NSRange, replacementString: string): boolean;
+  textFieldShouldChangeCharactersInRangeReplacementString(
+    textField: UITextField,
+    range: NSRange,
+    replacementString: string
+  ): boolean;
 
   textFieldShouldClear(textField: UITextField): boolean;
 
@@ -116,23 +128,27 @@ declare class MaskedTextFieldDelegate extends NSObject implements UITextFieldDel
 }
 
 interface MaskedTextFieldDelegateListener extends UITextFieldDelegate {
-
-  textFieldDidFillMandatoryCharactersDidExtractValue?(textField: UITextField, complete: boolean, value: string): void;
+  textFieldDidFillMandatoryCharactersDidExtractValue?(
+    textField: UITextField,
+    complete: boolean,
+    value: string
+  ): void;
 }
 declare var MaskedTextFieldDelegateListener: {
-
   prototype: MaskedTextFieldDelegateListener;
 };
 
 declare class PolyMaskTextFieldDelegate extends MaskedTextFieldDelegate {
-
   static alloc(): PolyMaskTextFieldDelegate; // inherited from NSObject
 
   static new(): PolyMaskTextFieldDelegate; // inherited from NSObject
 
   affineFormats: NSArray<string>;
 
-  constructor(o: { primaryFormat: string; affineFormats: NSArray<string>; });
+  constructor(o: { primaryFormat: string; affineFormats: NSArray<string> });
 
-  initWithPrimaryFormatAffineFormats(primaryFormat: string, affineFormats: NSArray<string>): this;
+  initWithPrimaryFormatAffineFormats(
+    primaryFormat: string,
+    affineFormats: NSArray<string>
+  ): this;
 }

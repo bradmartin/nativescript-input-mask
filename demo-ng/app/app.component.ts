@@ -1,4 +1,4 @@
-import { Component, NgZone, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   americanExpressMask = '[0000] [000000] [00000]';
   defaultMask = '[0000] [0000] [0000] [0000]';
 
-  constructor(private zone: NgZone, private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit() {
     this.mask = this.defaultMask;
